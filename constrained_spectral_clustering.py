@@ -15,7 +15,7 @@ if __name__ == '__main__':
     Q_norm = D_norm.dot(Q.dot(D_norm))
 
     # alpha < max eigenval of Q_norm
-    alpha = 0.8 * sp.linalg.svdvals(Q_norm)[0]
+    alpha = 0.6 * sp.linalg.svdvals(Q_norm)[0]
     Q1 = Q_norm - alpha * np.eye(*Q_norm.shape)
     
     val, vec = sp.linalg.eig(L_norm, Q1)

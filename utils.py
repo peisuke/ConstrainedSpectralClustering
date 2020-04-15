@@ -28,7 +28,7 @@ def create_affinity_matrix(X):
 
 def create_constraint_matrix(z):
     Q = 2 * (np.expand_dims(z, axis=1) == np.expand_dims(z, axis=0)).astype(int) - 1
-    mask = (np.random.rand(*Q.shape) < 0.8).astype(int)
+    mask = (np.random.rand(*Q.shape) < 0.95).astype(int)
     mask = np.maximum(mask.T, mask)
     Q[mask == 1] = 0
     Q[np.arange(Q.shape[0]), np.arange(Q.shape[0])] = 1
