@@ -27,3 +27,11 @@ python constrained_spectral_clustering.py
 ```
 
 ![image](https://user-images.githubusercontent.com/14243883/79290967-5e7df380-7f08-11ea-9879-724fbeace0b7.png)
+
+## Constrained Spectral Clustering with K clusters
+
+```
+python constrained_spectral_clustering_K.py
+```
+
+![image](https://user-images.githubusercontent.com/14243883/79323091-b9373f80-7f48-11ea-8caa-e9fac8f772d2.png)
