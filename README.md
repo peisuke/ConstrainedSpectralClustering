@@ -1,6 +1,6 @@
 # Constrained Spectral Clustering
 
-This repository is reproduced code of "Momentum Contrast for Unsupervised Visual Representation Learning"
+This repository is reproduced code of "On Constrained Spectral Clustering and Its Applications"
 
 The paper link is [here](https://arxiv.org/abs/1201.5338)
 
